@@ -1,0 +1,53 @@
+{
+	"fileName": "id_1706106793370_429_addFields",
+	"fileType": "change",
+	"changeType": "addFields",
+	"moduleName": "",
+	"reference": "customer.ZFSCM_DISPUTE_M_ADP",
+	"packageName": "$TMP",
+	"content": {
+		"field": {
+			"value": ["ZZ1_Division_DCA"],
+			"valueProperty": ["value"],
+			"selector": {
+				"id": "fin.fscm.dm.disputes.manage::sap.suite.ui.generic.template.ObjectPage.view.Details::DisputeCase--ProcessAssignees::FormGroup_DisputeCaseType_ZZ1_Division_DCA",
+				"idIsLocal": false
+			},
+			"jsTypes": ["sap.ui.comp.smartfield.SmartField"],
+			"index": 3
+		}
+	},
+	"selector": {
+		"id": "fin.fscm.dm.disputes.manage::sap.suite.ui.generic.template.ObjectPage.view.Details::DisputeCase--ProcessAssignees::FormGroup",
+		"idIsLocal": false
+	},
+	"layer": "CUSTOMER_BASE",
+	"texts": {},
+	"namespace": "apps/fin.fscm.dm.disputes.manage/appVariants/customer.ZFSCM_DISPUTE_M_ADP/changes/",
+	"projectId": "customer.ZFSCM_DISPUTE_M_ADP",
+	"creation": "2024-01-24T14:34:22.454Z",
+	"originalLanguage": "EN",
+	"support": {
+		"generator": "sap.ui.rta.command",
+		"service": "",
+		"user": "",
+		"sapui5Version": "1.96.0",
+		"sourceChangeFileName": "",
+		"compositeCommand": "id_1706106793376_430_composite",
+		"command": "addDelegateProperty"
+	},
+	"oDataInformation": {
+		"oDataServiceUri": "/sap/opu/odata/sap/UI_DISPUTECASE_MANAGE/",
+		"propertyName": "ZZ1_Division_DCA",
+		"entityType": "DisputeCaseType"
+	},
+	"dependentSelector": {
+		"form": {
+			"id": "fin.fscm.dm.disputes.manage::sap.suite.ui.generic.template.ObjectPage.view.Details::DisputeCase--ProcessAssigneeCollection::Form",
+			"idIsLocal": false
+		}
+	},
+	"jsOnly": false,
+	"variantReference": "fin.fscm.dm.disputes.manage::sap.suite.ui.generic.template.ObjectPage.view.Details::DisputeCase--template::ObjectPage::ObjectPageVariant",
+	"appDescriptorChange": false
+}

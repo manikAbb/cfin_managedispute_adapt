@@ -1,0 +1,37 @@
+{
+	"fileName": "id_1688108737323_335_propertyChange",
+	"fileType": "change",
+	"changeType": "propertyChange",
+	"moduleName": "",
+	"reference": "customer.ZFSCM_DISPUTE_M_ADP",
+	"packageName": "$TMP",
+	"content": {
+		"property": "visible",
+		"newValue": true
+	},
+	"selector": {
+		"id": "fin.fscm.dm.disputes.manage::sap.suite.ui.generic.template.ObjectPage.view.Details::DisputeCase--Amounts::CustomerDisputedAmount::Field",
+		"type": "sap.ui.comp.smartfield.SmartField",
+		"idIsLocal": false
+	},
+	"layer": "CUSTOMER_BASE",
+	"texts": {},
+	"namespace": "apps/fin.fscm.dm.disputes.manage/appVariants/customer.ZFSCM_DISPUTE_M_ADP/changes/",
+	"projectId": "customer.ZFSCM_DISPUTE_M_ADP",
+	"creation": "2023-06-30T07:06:07.370Z",
+	"originalLanguage": "EN",
+	"support": {
+		"generator": "sap.ui.rta.command",
+		"service": "",
+		"user": "",
+		"sapui5Version": "1.96.0",
+		"sourceChangeFileName": "",
+		"compositeCommand": "",
+		"command": "property"
+	},
+	"oDataInformation": {},
+	"dependentSelector": {},
+	"jsOnly": false,
+	"variantReference": "",
+	"appDescriptorChange": false
+}

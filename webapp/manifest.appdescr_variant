@@ -1,0 +1,44 @@
+{
+	"fileName": "manifest",
+	"layer": "CUSTOMER_BASE",
+	"fileType": "appdescr_variant",
+	"reference": "fin.fscm.dm.disputes.manage",
+	"id": "customer.ZFSCM_DISPUTE_M_ADP",
+	"namespace": "apps/fin.fscm.dm.disputes.manage/appVariants/customer.ZFSCM_DISPUTE_M_ADP/",
+	"content": [
+		{
+			"changeType": "appdescr_app_setTitle",
+			"content": {},
+			"texts": {
+				"i18n": "i18n/i18n.properties"
+			}
+		},
+		{
+			"changeType": "appdescr_ui5_addNewModelEnhanceWith",
+			"content": {
+				"modelId": "i18n|sap.suite.ui.generic.template.ListReport|DisputeCase"
+			},
+			"texts": {
+				"i18n": "i18n/ListReport/DisputeCase/i18n.properties"
+			}
+		},
+		{
+			"changeType": "appdescr_ui5_addNewModelEnhanceWith",
+			"content": {
+				"modelId": "i18n|sap.suite.ui.generic.template.ObjectPage|DisputeCase"
+			},
+			"texts": {
+				"i18n": "i18n/ObjectPage/DisputeCase/i18n.properties"
+			}
+		},
+		{
+			"changeType": "appdescr_ui5_addNewModelEnhanceWith",
+			"content": {
+				"modelId": "i18n|sap.suite.ui.generic.template.ObjectPage|I_DraftAdministrativeData"
+			},
+			"texts": {
+				"i18n": "i18n/ObjectPage/I_DraftAdministrativeData/i18n.properties"
+			}
+		}
+	]
+}

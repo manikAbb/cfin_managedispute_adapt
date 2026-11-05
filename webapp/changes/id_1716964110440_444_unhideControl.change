@@ -1,0 +1,33 @@
+{
+	"fileName": "id_1716964110440_444_unhideControl",
+	"fileType": "change",
+	"changeType": "unhideControl",
+	"moduleName": "",
+	"reference": "customer.ZFSCM_DISPUTE_M_ADP",
+	"packageName": "$TMP",
+	"content": {},
+	"selector": {
+		"id": "fin.fscm.dm.disputes.manage::sap.suite.ui.generic.template.ObjectPage.view.Details::DisputeCase--ProcessAssignees::FormGroup_DisputeCaseType_ZZ1_OrderReason_DCA",
+		"idIsLocal": false
+	},
+	"layer": "CUSTOMER_BASE",
+	"texts": {},
+	"namespace": "apps/fin.fscm.dm.disputes.manage/appVariants/customer.ZFSCM_DISPUTE_M_ADP/changes/",
+	"projectId": "customer.ZFSCM_DISPUTE_M_ADP",
+	"creation": "2024-05-29T06:28:42.489Z",
+	"originalLanguage": "EN",
+	"support": {
+		"generator": "sap.ui.rta.command",
+		"service": "",
+		"user": "",
+		"sapui5Version": "1.96.5",
+		"sourceChangeFileName": "",
+		"compositeCommand": "id_1716964110455_445_composite",
+		"command": "reveal"
+	},
+	"oDataInformation": {},
+	"dependentSelector": {},
+	"jsOnly": false,
+	"variantReference": "fin.fscm.dm.disputes.manage::sap.suite.ui.generic.template.ObjectPage.view.Details::DisputeCase--template::ObjectPage::ObjectPageVariant",
+	"appDescriptorChange": false
+}

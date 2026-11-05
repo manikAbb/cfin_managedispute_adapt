@@ -1,0 +1,40 @@
+{
+	"fileName": "id_1714028250904_614_renameField",
+	"fileType": "change",
+	"changeType": "renameField",
+	"moduleName": "",
+	"reference": "customer.ZFSCM_DISPUTE_M_ADP",
+	"packageName": "$TMP",
+	"content": {
+		"originalControlType": "sap.ui.comp.smartform.GroupElement"
+	},
+	"selector": {
+		"id": "fin.fscm.dm.disputes.manage::sap.suite.ui.generic.template.ObjectPage.view.Details::DisputeCase--ProcessAssignees::FormGroup_DisputeCaseType_ZZ1_CreditNoteType1_DCA",
+		"idIsLocal": false
+	},
+	"layer": "CUSTOMER_BASE",
+	"texts": {
+		"fieldLabel": {
+			"value": "Credit Note Type",
+			"type": "XFLD"
+		}
+	},
+	"namespace": "apps/fin.fscm.dm.disputes.manage/appVariants/customer.ZFSCM_DISPUTE_M_ADP/changes/",
+	"projectId": "customer.ZFSCM_DISPUTE_M_ADP",
+	"creation": "2024-04-25T06:57:34.550Z",
+	"originalLanguage": "EN",
+	"support": {
+		"generator": "sap.ui.rta.command",
+		"service": "",
+		"user": "",
+		"sapui5Version": "1.96.5",
+		"sourceChangeFileName": "",
+		"compositeCommand": "",
+		"command": "rename"
+	},
+	"oDataInformation": {},
+	"dependentSelector": {},
+	"jsOnly": false,
+	"variantReference": "fin.fscm.dm.disputes.manage::sap.suite.ui.generic.template.ObjectPage.view.Details::DisputeCase--template::ObjectPage::ObjectPageVariant",
+	"appDescriptorChange": false
+}
