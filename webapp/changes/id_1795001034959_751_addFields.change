@@ -1,0 +1,53 @@
+{
+  "changeType": "addFields",
+  "reference": "customer.ZFSCM_DISPUTE_M_ADP",
+  "namespace": "apps/customer.ZFSCM_DISPUTE_M_ADP/changes/",
+  "creation": "2026-11-18T11:24:06.119Z",
+  "projectId": "customer.ZFSCM_DISPUTE_M_ADP",
+  "packageName": "$TMP",
+  "support": {
+    "generator": "@sap-ux/control-property-editor",
+    "sapui5Version": "1.136.17",
+    "compositeCommand": "id_1795001034960_752_composite",
+    "command": "addDelegateProperty"
+  },
+  "oDataInformation": {
+    "oDataServiceUri": "/sap/opu/odata/sap/UI_DISPUTECASE_MANAGE/",
+    "propertyName": "ZZ1_SamePostingKey_DCA",
+    "entityType": "DisputeCaseType"
+  },
+  "originalLanguage": "EN",
+  "layer": "CUSTOMER_BASE",
+  "fileType": "change",
+  "fileName": "id_1795001034959_751_addFields",
+  "content": {
+    "field": {
+      "value": [
+        "ZZ1_SamePostingKey_DCA"
+      ],
+      "valueProperty": [
+        "value"
+      ],
+      "selector": {
+        "id": "fin.fscm.dm.disputes.manage::sap.suite.ui.generic.template.ObjectPage.view.Details::DisputeCase--GeneralData::FormGroup_DisputeCaseType_ZZ1_SamePostingKey_DCA",
+        "idIsLocal": false
+      },
+      "jsTypes": [
+        "sap.ui.comp.smartfield.SmartField"
+      ],
+      "index": 0
+    }
+  },
+  "texts": {},
+  "selector": {
+    "id": "fin.fscm.dm.disputes.manage::sap.suite.ui.generic.template.ObjectPage.view.Details::DisputeCase--GeneralData::FormGroup",
+    "idIsLocal": false
+  },
+  "dependentSelector": {
+    "form": {
+      "id": "fin.fscm.dm.disputes.manage::sap.suite.ui.generic.template.ObjectPage.view.Details::DisputeCase--ProcessInformationCollection::Form",
+      "idIsLocal": false
+    }
+  },
+  "jsOnly": false
+}
