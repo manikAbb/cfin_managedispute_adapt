@@ -2,7 +2,7 @@
   "changeType": "addFields",
   "reference": "customer.ZFSCM_DISPUTE_M_ADP",
   "namespace": "apps/fin.fscm.dm.disputes.manage/appVariants/customer.ZFSCM_DISPUTE_M_ADP/changes/",
-  "creation": "2026-11-05T10:46:33.293Z",
+  "creation": "2026-11-18T11:24:06.126Z",
   "projectId": "customer.ZFSCM_DISPUTE_M_ADP",
   "packageName": "$TMP",
   "moduleName": "",
