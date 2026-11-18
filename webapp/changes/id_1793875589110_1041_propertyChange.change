@@ -1,0 +1,29 @@
+{
+  "changeType": "propertyChange",
+  "reference": "customer.ZFSCM_DISPUTE_M_ADP",
+  "namespace": "apps/customer.ZFSCM_DISPUTE_M_ADP/changes/",
+  "creation": "2026-11-05T10:46:33.282Z",
+  "projectId": "customer.ZFSCM_DISPUTE_M_ADP",
+  "packageName": "$TMP",
+  "support": {
+    "generator": "@sap-ux/control-property-editor",
+    "sapui5Version": "1.136.17",
+    "command": "property"
+  },
+  "originalLanguage": "EN",
+  "layer": "CUSTOMER_BASE",
+  "fileType": "change",
+  "fileName": "id_1793875589110_1041_propertyChange",
+  "content": {
+    "property": "blocked",
+    "newValue": true
+  },
+  "texts": {},
+  "selector": {
+    "id": "fin.fscm.dm.disputes.manage::sap.suite.ui.generic.template.ObjectPage.view.Details::DisputeCase--ProcessAssignees::FormGroup_DisputeCaseType_ZZ1_ApprovalLog1_DCA-element0",
+    "type": "sap.ui.comp.smartfield.SmartField",
+    "idIsLocal": false
+  },
+  "dependentSelector": {},
+  "jsOnly": false
+}

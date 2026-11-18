@@ -1,71 +1,74 @@
 {
-	"fileName": "id_1716872924458_637_moveControls",
-	"fileType": "change",
-	"changeType": "moveControls",
-	"moduleName": "",
-	"reference": "customer.ZFSCM_DISPUTE_M_ADP",
-	"packageName": "$TMP",
-	"content": {
-		"movedElements": [{
-			"selector": {
-				"id": "fin.fscm.dm.disputes.manage::sap.suite.ui.generic.template.ObjectPage.view.Details::DisputeCase--ProcessAssignees::FormGroup_DisputeCaseType_ZZ1_OrderReason_DCA",
-				"idIsLocal": false
-			},
-			"sourceIndex": 0,
-			"targetIndex": 7
-		}],
-		"source": {
-			"selector": {
-				"aggregation": "formElements",
-				"type": "sap.ui.comp.smartform.Group",
-				"id": "fin.fscm.dm.disputes.manage::sap.suite.ui.generic.template.ObjectPage.view.Details::DisputeCase--ProcessAssignees::FormGroup",
-				"idIsLocal": false
-			}
-		},
-		"target": {
-			"selector": {
-				"aggregation": "formElements",
-				"type": "sap.ui.comp.smartform.Group",
-				"id": "fin.fscm.dm.disputes.manage::sap.suite.ui.generic.template.ObjectPage.view.Details::DisputeCase--ProcessAssignees::FormGroup",
-				"idIsLocal": false
-			}
-		}
-	},
-	"selector": {
-		"id": "fin.fscm.dm.disputes.manage::sap.suite.ui.generic.template.ObjectPage.view.Details::DisputeCase--ProcessAssigneeCollection::Form",
-		"idIsLocal": false
-	},
-	"layer": "CUSTOMER_BASE",
-	"texts": {},
-	"namespace": "apps/fin.fscm.dm.disputes.manage/appVariants/customer.ZFSCM_DISPUTE_M_ADP/changes/",
-	"projectId": "customer.ZFSCM_DISPUTE_M_ADP",
-	"creation": "2024-05-28T05:09:31.718Z",
-	"originalLanguage": "EN",
-	"support": {
-		"generator": "sap.ui.rta.command",
-		"service": "",
-		"user": "",
-		"sapui5Version": "1.96.5",
-		"sourceChangeFileName": "",
-		"compositeCommand": "",
-		"command": "move"
-	},
-	"oDataInformation": {},
-	"dependentSelector": {
-		"source": {
-			"id": "fin.fscm.dm.disputes.manage::sap.suite.ui.generic.template.ObjectPage.view.Details::DisputeCase--ProcessAssignees::FormGroup",
-			"idIsLocal": false
-		},
-		"target": {
-			"id": "fin.fscm.dm.disputes.manage::sap.suite.ui.generic.template.ObjectPage.view.Details::DisputeCase--ProcessAssignees::FormGroup",
-			"idIsLocal": false
-		},
-		"movedElements": [{
-			"id": "fin.fscm.dm.disputes.manage::sap.suite.ui.generic.template.ObjectPage.view.Details::DisputeCase--ProcessAssignees::FormGroup_DisputeCaseType_ZZ1_OrderReason_DCA",
-			"idIsLocal": false
-		}]
-	},
-	"jsOnly": false,
-	"variantReference": "fin.fscm.dm.disputes.manage::sap.suite.ui.generic.template.ObjectPage.view.Details::DisputeCase--template::ObjectPage::ObjectPageVariant",
-	"appDescriptorChange": false
+  "changeType": "moveControls",
+  "reference": "customer.ZFSCM_DISPUTE_M_ADP",
+  "namespace": "apps/fin.fscm.dm.disputes.manage/appVariants/customer.ZFSCM_DISPUTE_M_ADP/changes/",
+  "creation": "2026-11-05T10:46:33.295Z",
+  "projectId": "customer.ZFSCM_DISPUTE_M_ADP",
+  "packageName": "$TMP",
+  "moduleName": "",
+  "support": {
+    "generator": "@sap-ux/control-property-editor",
+    "service": "",
+    "user": "",
+    "sapui5Version": "1.96.5",
+    "sourceChangeFileName": "",
+    "compositeCommand": "",
+    "command": "move"
+  },
+  "oDataInformation": {},
+  "originalLanguage": "EN",
+  "layer": "CUSTOMER_BASE",
+  "fileType": "change",
+  "fileName": "id_1716872924458_637_moveControls",
+  "content": {
+    "movedElements": [
+      {
+        "selector": {
+          "id": "fin.fscm.dm.disputes.manage::sap.suite.ui.generic.template.ObjectPage.view.Details::DisputeCase--ProcessAssignees::FormGroup_DisputeCaseType_ZZ1_OrderReason_DCA",
+          "idIsLocal": false
+        },
+        "sourceIndex": 1,
+        "targetIndex": 2
+      }
+    ],
+    "source": {
+      "selector": {
+        "aggregation": "formElements",
+        "type": "sap.ui.comp.smartform.Group",
+        "id": "fin.fscm.dm.disputes.manage::sap.suite.ui.generic.template.ObjectPage.view.Details::DisputeCase--SLA::FormGroup",
+        "idIsLocal": false
+      }
+    },
+    "target": {
+      "selector": {
+        "aggregation": "formElements",
+        "type": "sap.ui.comp.smartform.Group",
+        "id": "fin.fscm.dm.disputes.manage::sap.suite.ui.generic.template.ObjectPage.view.Details::DisputeCase--SLA::FormGroup",
+        "idIsLocal": false
+      }
+    }
+  },
+  "texts": {},
+  "selector": {
+    "id": "fin.fscm.dm.disputes.manage::sap.suite.ui.generic.template.ObjectPage.view.Details::DisputeCase--ProcessAssigneeCollection::Form",
+    "idIsLocal": false
+  },
+  "dependentSelector": {
+    "source": {
+      "id": "fin.fscm.dm.disputes.manage::sap.suite.ui.generic.template.ObjectPage.view.Details::DisputeCase--ProcessAssignees::FormGroup",
+      "idIsLocal": false
+    },
+    "target": {
+      "id": "fin.fscm.dm.disputes.manage::sap.suite.ui.generic.template.ObjectPage.view.Details::DisputeCase--ProcessAssignees::FormGroup",
+      "idIsLocal": false
+    },
+    "movedElements": [
+      {
+        "id": "fin.fscm.dm.disputes.manage::sap.suite.ui.generic.template.ObjectPage.view.Details::DisputeCase--ProcessAssignees::FormGroup_DisputeCaseType_ZZ1_OrderReason_DCA",
+        "idIsLocal": false
+      }
+    ]
+  },
+  "jsOnly": false,
+  "variantReference": "fin.fscm.dm.disputes.manage::sap.suite.ui.generic.template.ObjectPage.view.Details::DisputeCase--template::ObjectPage::ObjectPageVariant"
 }

@@ -1,33 +1,32 @@
 {
-	"fileName": "id_1714028224616_583_unhideControl",
-	"fileType": "change",
-	"changeType": "unhideControl",
-	"moduleName": "",
-	"reference": "customer.ZFSCM_DISPUTE_M_ADP",
-	"packageName": "$TMP",
-	"content": {},
-	"selector": {
-		"id": "fin.fscm.dm.disputes.manage::sap.suite.ui.generic.template.ObjectPage.view.Details::DisputeCase--ProcessAssignees::FormGroup_DisputeCaseType_ZZ1_CreditNoteType1_DCA",
-		"idIsLocal": false
-	},
-	"layer": "CUSTOMER_BASE",
-	"texts": {},
-	"namespace": "apps/fin.fscm.dm.disputes.manage/appVariants/customer.ZFSCM_DISPUTE_M_ADP/changes/",
-	"projectId": "customer.ZFSCM_DISPUTE_M_ADP",
-	"creation": "2024-04-25T06:57:14.060Z",
-	"originalLanguage": "EN",
-	"support": {
-		"generator": "sap.ui.rta.command",
-		"service": "",
-		"user": "",
-		"sapui5Version": "1.96.5",
-		"sourceChangeFileName": "",
-		"compositeCommand": "id_1714028224620_584_composite",
-		"command": "reveal"
-	},
-	"oDataInformation": {},
-	"dependentSelector": {},
-	"jsOnly": false,
-	"variantReference": "fin.fscm.dm.disputes.manage::sap.suite.ui.generic.template.ObjectPage.view.Details::DisputeCase--template::ObjectPage::ObjectPageVariant",
-	"appDescriptorChange": false
+  "changeType": "unhideControl",
+  "reference": "customer.ZFSCM_DISPUTE_M_ADP",
+  "namespace": "apps/fin.fscm.dm.disputes.manage/appVariants/customer.ZFSCM_DISPUTE_M_ADP/changes/",
+  "creation": "2026-11-05T10:46:33.292Z",
+  "projectId": "customer.ZFSCM_DISPUTE_M_ADP",
+  "packageName": "$TMP",
+  "moduleName": "",
+  "support": {
+    "generator": "@sap-ux/control-property-editor",
+    "service": "",
+    "user": "",
+    "sapui5Version": "1.96.5",
+    "sourceChangeFileName": "",
+    "compositeCommand": "id_1714028224620_584_composite",
+    "command": "reveal"
+  },
+  "oDataInformation": {},
+  "originalLanguage": "EN",
+  "layer": "CUSTOMER_BASE",
+  "fileType": "change",
+  "fileName": "id_1714028224616_583_unhideControl",
+  "content": {},
+  "texts": {},
+  "selector": {
+    "id": "fin.fscm.dm.disputes.manage::sap.suite.ui.generic.template.ObjectPage.view.Details::DisputeCase--ProcessAssignees::FormGroup_DisputeCaseType_ZZ1_CreditNoteType1_DCA",
+    "idIsLocal": false
+  },
+  "dependentSelector": {},
+  "jsOnly": false,
+  "variantReference": "fin.fscm.dm.disputes.manage::sap.suite.ui.generic.template.ObjectPage.view.Details::DisputeCase--template::ObjectPage::ObjectPageVariant"
 }
